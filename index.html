@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ghost Writers Directory</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#4f46e5,#9333ea,#ec4899);
+background-size:400% 400%;
+animation:bg 12s ease infinite;
+color:white;
+}
+
+@keyframes bg{
+0%{background-position:0% 50%;}
+100%{background-position:100% 50%;}
+}
+
+header{
+text-align:center;
+padding:70px 20px;
+}
+
+header h1{
+font-size:48px;
+}
+
+header p{
+margin-top:10px;
+font-size:18px;
+opacity:.9;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+padding:40px;
+}
+
+.card{
+background:rgba(255,255,255,.12);
+backdrop-filter:blur(14px);
+border-radius:20px;
+padding:30px;
+box-shadow:0 15px 35px rgba(0,0,0,.35);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h2{
+font-size:30px;
+color:#FFD700;
+margin-bottom:15px;
+}
+
+.info{
+margin:10px 0;
+font-size:17px;
+}
+
+.badge{
+display:inline-block;
+margin-top:18px;
+padding:8px 18px;
+background:#FFD700;
+color:#111;
+border-radius:30px;
+font-weight:bold;
+}
+
+footer{
+text-align:center;
+padding:30px;
+opacity:.8;
+font-size:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🎵 Ghost Writers Directory</h1>
+<p>Independent Songwriters & Ghostwriters</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>pradeeone8</h2>
+<p class="info"><strong>📍 Location:</strong> Haryana, India</p>
+<p class="info"><strong>🎼 Role:</strong> Ghost Writer</p>
+<p class="info"><strong>📖 Profile:</strong> According to the profile owner, they have contributed to over 100 songs.</p>
+<span class="badge">Featured Profile</span>
+</div>
+
+<div class="card">
+<h2>Hittman</h2>
+<p class="info"><strong>📍 Location:</strong> Delhi NCR, India</p>
+<p class="info"><strong>🎼 Role:</strong> Ghost Writer</p>
+<p class="info"><strong>📖 Profile:</strong> According to the profile owner, they have contributed to over 80 songs.</p>
+<span class="badge">Featured Profile</span>
+</div>
+
+<div class="card">
+<h2>starlovexag</h2>
+<p class="info"><strong>📍 Location:</strong> Mumbai, Maharashtra, India</p>
+<p class="info"><strong>🎼 Role:</strong> Ghost Writer</p>
+<p class="info"><strong>📖 Profile:</strong> According to the profile owner, they have contributed to over 45 songs.</p>
+<span class="badge">Featured Profile</span>
+</div>
+
+</div>
+
+<footer>
+© 2026 Ghost Writers Directory
+</footer>
+
+</body>
+</html>
